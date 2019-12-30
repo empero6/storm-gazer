@@ -1,0 +1,19 @@
+$gunmet: #1D1E2C;
+$winterWizard: #A3D9FF;
+$verdigris: #44BBA4;
+$zinnwaldite: #251605;
+$persianRed: #C84630;
+$maize: #FCEC52;
+$pumpkin: #FF7F11;
+$bleuDeFrance: #3590F3;
+
+@mixin centered {
+    text-align: auto;
+    margin: 0 auto;
+}
+
+@mixin font {
+    font-family: "Lato", Times, serif;
+    font-size: 19pt;
+    text-align: center;
+}
