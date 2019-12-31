@@ -22,14 +22,9 @@ body{
     background-image: linear-gradient(to right bottom, $verdigris, $gunmet);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh 100%;
+    min-height: calc(100vh - 2 * 4vw);
 }
 
-.directions{
-    border: solid red 2px;
-    display: flex;
-
-}
 .container{
     max-width: 122rem;
     margin: 4vw auto;
@@ -38,9 +33,9 @@ body{
     overflow: hidden;
     box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
     display: grid;
-    grid-template-rows: 8rem minmax(50rem, auto);
-    grid-template-columns: 1fr;
-    grid-template-areas: "directions";
+    grid-template-rows: 8.5rem minmax(50rem, auto);
+    grid-template-columns: 2fr;
+    grid-template-areas: "forecast";
 }
 
 .btn{
